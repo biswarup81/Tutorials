@@ -10,11 +10,11 @@
 	
 $(document).ready(function() {
 	$('#example').DataTable( {
-        "ajax": "./data/objects.txt",
+        "ajax": "./data/img.txt",
         "columns": [
             { "data": "name" },
             { "data": "position" },
-            { "data": "office" },
+            { "data": "image" },
             { "data": "extn" },
             { "data": "start_date" },
             { "data": "salary" }
@@ -31,7 +31,7 @@ $(document).ready(function() {
             <tr>
                 <th>First name</th>
                 <th>Last name</th>
-                <th>Position</th>
+                <th>Image</th>
                 <th>Office</th>
                 <th>Start date</th>
                 <th>Salary</th>
@@ -41,7 +41,7 @@ $(document).ready(function() {
             <tr>
                 <th>First name</th>
                 <th>Last name</th>
-                <th>Position</th>
+                <th>Image</th>
                 <th>Office</th>
                 <th>Start date</th>
                 <th>Salary</th>
